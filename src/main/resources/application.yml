@@ -1,0 +1,10 @@
+
+server:
+  port: 8080
+spring:
+  redis:
+    database: 1
+    password: 123!@#
+    sentinel:
+      master: imooc-master
+      nodes: 172.17.35.82:26379,172.17.35.182:26379,172.17.35.83:26379
